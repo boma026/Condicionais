@@ -1,0 +1,12 @@
+ #include <stdio.h>
+
+int main() {
+  int a, b, divisao;
+  scanf("%d %d", &b, &a);
+  if(b % a == 0){
+    divisao = b / a;
+    printf("Resultado: %d", divisao);
+  }
+    
+  return 0;
+}
